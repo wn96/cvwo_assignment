@@ -1,3 +1,2 @@
 ---
-BUNDLE_WITHOUT: "production"
-BUNDLE_WITH: "development"
+BUNDLE_WITHOUT: "heroku:development:test:production"
