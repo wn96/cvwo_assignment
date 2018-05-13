@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This To-do list is created with Ruby on Rails, and it's created for the CVWO 2018 holiday assignment.
+This to-do app is created with Ruby on Rails, and it's created for the CVWO 2018 holiday assignment.
 
 ### Name
 
@@ -20,13 +20,13 @@ A0164178X
 
 ## Deployment
 
-This app is deployed on heroku, at https://todo.weineng.me
+This app is deployed on heroku, at https://cvwo.weineng.me
 
 ## Running the app in local environment
 
 Clone this repo:
 ```
-$ git clone https://github.com/Tormey/Todo
+$ git clone https://github.com/wn96/cvwo_assignment
 ```
 Install all dependancies:
 ```
@@ -34,7 +34,7 @@ $ bundle install
 ```
 Create database and run migration:
 ```
-$ rake db:create db:migrate
+$ rake db:create db:migrate db:seed
 ```
 Start the local server:
 ```
@@ -51,5 +51,5 @@ Now you can open this todo-list app in your browser at http://localhost:3000/.
 
 ### The username and password for a sample user account:
 
-* User name: example-{1-100}@cvwo.com
+* User name: example-{1-99}@cvwo.com
 * Password: foobar
