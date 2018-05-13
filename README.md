@@ -20,7 +20,7 @@ A0164178X
 
 ## Deployment
 
-This app is deployed on heroku, at https://cvwo.weineng.me
+This app is deployed on heroku, at <TO FILL IN>
 
 ## Running the app in local environment
 
